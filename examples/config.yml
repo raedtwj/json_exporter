@@ -36,7 +36,7 @@ modules:
       path: '{ .available_memory }'
       labels:
         environment: beta # static label
-      regex: ^\d*\.?\d*   # only match digits
+      includeregex: ^\d*\.?\d*   # only match digits
 
 
   animals:
